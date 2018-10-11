@@ -14,6 +14,6 @@ public @interface Connector {
 	String id();
 	String version();
 	String icon() default "";
-	String messages() default "messages.properties";
+	String messages() default "messages";
 	
 }
